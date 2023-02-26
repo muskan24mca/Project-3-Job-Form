@@ -1,0 +1,47 @@
+body{
+    background-color: burlywood;
+    background-blend-mode: color-dodge;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+form{
+    background-color: aliceblue;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px rgba(0,0,0, 0.5);
+}
+.formcontrol{
+    text-align: left;
+    margin-bottom: 25px;
+}
+.formcontrol label{
+    display: block;
+    margin-bottom: 10px;
+}
+.formcontrol input , .formcontrol select, .formcontrol textarea{
+    border: 1px;
+    border-radius: 2px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 90%;
+}
+.formcontrol input[type="radio"],
+        .formcontrol input[type="checkbox"] {
+            display: inline-block;
+            width: auto;
+        }
+        button {
+            background-color: #20bfe7;
+            box-shadow: #070707;
+            border: 1px solid #dcf0f4;
+            border-radius: 2px;
+            font-family: inherit;
+            font-size: 21px;
+            display: block;
+            width: 100%;
+            margin-top: 50px;
+            margin-bottom: 20px;
+        }

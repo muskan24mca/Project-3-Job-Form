@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Forms</title>
+    <link rel="stylesheet" href="styleproject3.css">
+</head>
+<body>
+    <h1>A Survey Form </h1>
+    <form id="form">
+        <div class="formcontrol">
+        <label for="name" id="label-name">Name :</label>
+        <input type="text" id="name" placeholder="Enter your full name" />
+        </div>
+        <div class="formcontrol">
+        <label for="email" id="label-email">Email :</label>
+        <input type="email" id="email" placeholder="Enter your email" />
+    </div>
+    <div class="formcontrol">
+        <label for="age" id="label-age" >Age :</label>
+        <input type="text" id="age" placeholder="Enter your age" />
+    </div>
+    <div class="formcontrol">
+        <label for="role" id="label-role">Which option best describe you ?</label>
+        <select name="role" id="role">
+        <option value="student" >Student</option>
+        <option value="intern">Intern</option>
+        <option value="professional">Professional</option>
+        <option value="other">Other</option>
+    </select>
+    </div>
+    <div class="formcontrol">
+    <label >Language and Framework Known</label>
+    <small>( Check all that apply)</small>
+    <label for="inp-1">
+    <input type="checkbox" 
+             name="inp">C</label>
+    <label for="inp-2">
+        <input type="checkbox"
+               name="inp">C++</input></label>
+    <label for="inp-3">
+        <input type="checkbox"
+               name="inp">C#</input></label>
+    <label for="inp-4">
+        <input type="checkbox"
+               name="inp">Java</input></label>
+    <label for="inp-5">
+        <input type="checkbox"
+               name="inp">Python</input></label>
+    <label for="inp-6">
+        <input type="checkbox"
+               name="inp">JavaScript</input></label>
+    <label for="inp-7">
+        <input type="checkbox"
+               name="inp">React</input></label>
+    <label for="inp-7">
+        <input type="checkbox"
+               name="inp">Angular</input></label>
+    <label for="inp-7">
+        <input type="checkbox"
+               name="inp">Django</input></label>
+    <label for="inp-7">
+        <input type="checkbox"
+               name="inp">Spring</input></label>
+    </div>
+    <div class="formcontrol">
+        <label for="comment">
+            Any comments or suggestions
+        </label>
+        <textarea name="comment" id="comment"
+            placeholder="Enter your comment here">
+        </textarea>
+    </div>
+    <button type="submit" value="submit">
+        Submit
+    </button>
+    </form>
+</body>
+</html>
